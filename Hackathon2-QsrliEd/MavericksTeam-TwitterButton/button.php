@@ -4,12 +4,12 @@
  *
  * LICENSE
  *
- * This source file is subject to the Apache 2.0 license available
- * http://www.apache.org/licenses/LICENSE-2.0.html
+ * This source file is subject to the new BSD license available
+ * http://en.wikipedia.org/wiki/BSD_licenses
  * @Author		Rakan Alhneiti, Abdelrahman Salem
  * @package    Twitter_Example
  * @copyright  Copyright (c) 2011 N2V. (http://www.n2v.com)
- * @license    http://www.apache.org/licenses/LICENSE-2.0.html     Apache 2.0 License
+ * @license    http://en.wikipedia.org/wiki/BSD_licenses     new BSD license
  */
 
 
