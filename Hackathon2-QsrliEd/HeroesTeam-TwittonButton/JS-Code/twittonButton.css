@@ -1,0 +1,91 @@
+.retweetbtn { display: block; margin: 15px; float: right; }
+
+
+/* Text */
+#textretweet {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 5px 15px;
+	color: #333;
+	font-size: 12px;
+	width: 400px;
+}
+
+	#textretweet strong {
+		text-shadow: 0px 0px 1px #ccc;
+	}
+	#textretweet a { 
+		color: #08f;
+	}
+
+/* Standard Monir */
+.twittonStyle2 {
+	width: 50px;
+	text-align: center;
+	font: 11px tahoma;
+}
+	.twittonStyle2 a {
+		position: relative;
+		display: block;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		text-shadow: 0px 0px 2px #aaa;
+		-moz-text-shadow: 0px 0px 2px #aaa;
+		-webkit-text-shadow: 0px 0px 2px #aaa;
+		text-decoration: none;
+	}
+	
+	.twittonStyle2 .tweets {
+		border: 1px solid #aaa;
+		background: #eee;
+		height: 50px;
+		line-height: 67px;
+		color: #333;
+	}
+	.twittonStyle2 .tweets:hover {
+		background:#ffffff;
+	}
+		.twittonStyle2 .tweets strong{
+			position: absolute;
+			top: -13px;
+			left: 0;
+			width: 48px;
+			font-size: 16px;
+		}
+	.twittonStyle2 .retweet {
+		display: block;
+		margin: 5px 0 0 0;
+		border: 1px solid #79f;
+		background: #7cf;
+		height: 15px;
+		line-height: 15px;
+		color: #fff;
+	}
+	.twittonStyle2 .retweet:hover {
+		background: #fff;
+		color: #666666;
+		text-shadow: 0px 0px 2px #77a;
+		-moz-text-shadow: 0px 0px 2px #77a;
+		-webkit-text-shadow: 0px 0px 2px #77a;
+	}
+
+/*======[ Twitton Button Color Schemes ]========= */
+.twittonOrange .retweet {
+	background:#ff9900;
+	border-color:#ff6600;
+}
+
+.twittonBlue .retweet {
+	background:#ffcc00;
+	border-color:#ff6600;
+}
+
+.twittonGray .retweet {
+	background:#999999;
+	border-color:#333333;
+}
+.inlineTweetCount{
+	font-family:tahoma;
+	font-size:12px;
+}

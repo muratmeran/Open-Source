@@ -1,0 +1,19 @@
+############################################################
+# Skittles v0.1 Tweet Button for Webpages
+# @developed by: Ashraf M. Samhouri (ashrafperformance@gmail.com)
+# Please notice that this version is not reliable for now, a kind of "proof of concept" only!
+############################################################
+
+More explanation:
+Too many features are not working for this level, it was only a trial (a proof of concept) for the idea.
+You can host the files on your own server and for yourself, and you can also serve people by hosting it for public.
+
+This version was developed during N2V Hackathon competition 25th Jun. 2011.
+
+* This is OPEN SOURCE, you are allowed to take the code, develop it, or even make an advanced version for commercial uses.
+
+For now, there is no tutorial for how to use this, and some files were only for testing purposes, so please contact me for mechanism's explanations.
+
+##
+# This version is for Developers only! - Don't use it if you can't understand codes.
+##

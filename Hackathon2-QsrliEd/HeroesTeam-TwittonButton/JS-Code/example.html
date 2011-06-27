@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html dir="rtl">
+	<head>
+		<title>هذا مثال على TwittonButton</title>
+		<link rel="stylesheet" href="twittonButton.css" type="text/css"/> 
+		<link rel="stylesheet" href="twittonButton.rtl.css" type="text/css"/> 
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="twittonButton.js"></script>
+		<style type="text/css">
+			body{
+				background:url(logo.png) top right no-repeat;
+				padding-top:158px;
+			}
+		</style>
+		<script type="text/javascript">
+			$(function(){
+				var icLink = 'http://picturize.me/';
+				
+				// Inline Tweet template
+				$('#textretweet').twittonButton({
+					url: icLink,
+					template: 'تم نشر هذا المقال <strong>{{count}} مرة على موقع تويتر</strong>. <a href="{{retweetURL}}">انشره الآن!</a>',
+					useHindiNumbers:true
+				});
+				
+				var standard = '<a class="tweets" href="{{allTweetsURL}}">' +
+								'<strong>{{count}}</strong> tweets</a>' +
+								'<a href="{{retweetURL}}" class="retweet">retweet</a>';
+
+				$('#oasysLink').twittonButton({
+					url: icLink,
+					template: standard,
+					useHindiNumbers:false,
+					title:'Vote for OaSys Team'
+				});
+
+				
+				var localizedText= ["مره", "تويتر"];
+				//var localizedText= {"tweets","retweet"};
+				
+				var localizedTweet = '<a class="tweets" href="{{retweetURL}}"><strong>{{count}}</strong>' +
+								localizedText[0] + '</a>' +
+								'<a href="{{retweetURL}}" class="retweet">' + localizedText[1] + '</a>';
+
+				
+				$('#voteLink').twittonButton({
+					url: icLink,
+					template: localizedTweet,
+					useHindiNumbers:true,
+					title:'صوتوا للأردن'
+				});
+				
+				$('#voteLink2').twittonButton({
+					url: icLink,
+					template: localizedTweet,
+					useHindiNumbers:false
+				});
+				
+			});
+			
+		</script>
+		
+	</head>
+	<body>
+		<div id="container">
+
+			<div id="textretweet" class="inlineTweetCount"></div>
+            
+            <div class="retweetbtn twittonStyle2 twittonGray" id="voteLink2"></div>
+            
+			<div class="retweetbtn twittonStyle2" id="oasysLink"></div>
+            
+			<div class="retweetbtn twittonStyle2 twittonOrange" id="voteLink"></div>
+            
+
+		</div>
+	</body>
+</html>
